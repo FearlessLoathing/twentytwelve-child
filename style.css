@@ -429,9 +429,10 @@ a.comment-edit-link:hover {
 	.main-navigation .current-menu-ancestor > a,
 	.main-navigation .current_page_item > a,
 	.main-navigation .current_page_ancestor > a {
-		color: #cc0000;
+		background-color: #cc0000;
+		color: #000
 		font-weight: normal; 
-		text-decoration: overline;
+		/*text-decoration: overline;*/
 	}
 	.entry-header .entry-title {
 		font-family: Georgia, serif;	
