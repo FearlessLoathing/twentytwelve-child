@@ -62,6 +62,17 @@
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 
+<!--Child Category navigation-->
+<h1 class="archive-title"><?php printf( __( '%s', 'twentytwelve' ), '<span>' . single_cat_title( '', false ) . '</span>' ); ?></h1>
+<?php 
+	if (is_archive()) {
+	$catname = single_cat_title('',false);
+	$catID = get_cat_ID($catname);
+	wp_list_categories( "show_option_none=&child_of=$catID&depth=0&title_li="); 
+	}
+?>
+
 	</header><!-- #masthead -->
 
 	<div id="main" class="wrapper">
+
