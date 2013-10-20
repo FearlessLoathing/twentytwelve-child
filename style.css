@@ -1,5 +1,5 @@
 /*
-Theme Name:     Twenty Twelve Child - Fearless and Loathing
+Theme Name:     fearlessandloathing.com Twenty Twelve Child
 Theme URI:      http://fearlessandloathing.com
 Description:    Child theme for the Twenty Twelve theme
 Author:         David Edward Clark
@@ -100,6 +100,7 @@ body .site {
 .site-content {
 	margin: 0px;
 	margin: 0rem; 
+	margin-top: 2em;
 	text-align: justify;
 }
 .widget-area {
@@ -113,6 +114,18 @@ body .site {
 .site-header {
 	padding: 0px;
 	padding: 0rem;
+}
+.site-header > li {
+	list-style: none;
+	float: left;
+	padding: .5em;
+}
+.site-header > li a {
+	color: rgb(117, 117, 117);
+	text-decoration: none;
+}
+.site-header > li a:hover {
+	color: #cc0000;
 }
 .site-header h1,
 .site-header h2 {
@@ -161,16 +174,15 @@ body .site {
 .main-navigation li {
 
 	font-size: 12px;
-	font-size: 1;
+	font-size: 0.857142857rem;
 	line-height: 1; 
 }
 .main-navigation a {
-	color: #cc0000;
+	color: #5e5e5e;
 	font-size: 1rem;
 }
 .main-navigation a:hover {
-	color: #ffffff;
-	background-color: #cc0000;
+	color: #cc0000;
 }
 /* Banner */
 section[role="banner"] {
@@ -188,6 +200,7 @@ section[role="banner"] {
 	word-wrap: break-word;
 }
 .widget-area .widget h3 {	
+	margin: 0em;
 }
 .widget-area .widget p,
 .widget-area .widget li,
@@ -216,23 +229,27 @@ section[role="banner"] {
 	color: #000000;
 }
 .widget-area .widget a {
-	color: #000000;
+color: rgb(33, 117, 155);
 }
 .widget-area .widget a:hover {
 	color: #cc0000;
 	text-decoration: none;
 }
-#nav_menu-4 {
+#nav_menu-2 {
 }
-#nav_menu-4 li {
+#nav_menu-2 li {
 }
-#nav_menu-4 li a{
+#nav_menu-2 li a{
 	text-transform: uppercase;
 	font-size: 18px;
 	font-size: 1.3rem;
 	white-space: nowrap;
 	text-decoration: none;
 	padding-left: 5%;
+	color: #000;
+}
+#nav_menu-2 li a:hover {
+	color: #cc0000;
 }
 footer[role="contentinfo"] a:hover {
 	color: #cc0000;
@@ -321,8 +338,8 @@ article.sticky .featured-post {
 	border-bottom: 4px double #999999;
 	margin-bottom: 48px;
 	margin-bottom: 3.142857143rem;
-	padding: 24px;
-	padding: 1.714285714rem;
+	padding: 0px;
+	padding: 0rem;
 	word-wrap: break-word;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
@@ -335,9 +352,9 @@ article.sticky .featured-post {
 .page-header {
 	margin-bottom: 0px;
 	margin-bottom: 0rem;
-	padding-bottom: 22px;
-	padding-bottom: 1.571428571rem;
-	padding: 1.5em;
+	padding-bottom: 0px;
+	padding-bottom: 0rem;
+	padding: 0em;
 	border-bottom: 0px solid white; 
 	line-height: 1.5;
 }
@@ -414,7 +431,7 @@ a.comment-edit-link:hover {
 	}
 	.main-navigation li a:hover {
 		background-color: #cc0000;
-		color: #ffffff;
+		color: #fff;
 	}
 	.main-navigation ul li:hover > ul {
 		border-left: 0;
@@ -429,10 +446,9 @@ a.comment-edit-link:hover {
 	.main-navigation .current-menu-ancestor > a,
 	.main-navigation .current_page_item > a,
 	.main-navigation .current_page_ancestor > a {
-		background-color: #cc0000;
-		color: #000
+		color: #cc0000;
 		font-weight: normal; 
-		/*text-decoration: overline;*/
+		text-decoration: overline;
 	}
 	.entry-header .entry-title {
 		font-family: Georgia, serif;	
@@ -462,26 +478,7 @@ a.comment-edit-link:hover {
 	float: right;
 }
 
-.archive-header, .page-header {
-	padding: 0em;
-	padding-bottom: 1em;
-	margin-left: 1em;
-	padding-left: .5em;
-	line-height: 1.7;
-	border-bottom: 1px solid rgb(237, 237, 237);
-	border-left: 1px solid rgb(237, 237, 237);
-	border-right: 1px solid rgb(237, 237, 237);
-	min-height: .7em;
-	color: rgb(106, 106, 106);
-}
-li.cat-item a {
-	color: rgb(106, 106, 106);
-	text-decoration: none;
-}
-li.cat-item a:hover {
-	color: rgb(204, 0, 0);
-}
-
 
 
 	
+
