@@ -168,7 +168,6 @@ body .site {
 .main-navigation { 
 	margin-top: 0px;
 	margin-top: 0rem;
-	margin-top: 1rem;
 	text-align: center;
 }
 .main-navigation li {
@@ -400,8 +399,8 @@ a.comment-edit-link:hover {
 /* =Media queries
 -------------------------------------------------------------- */
 
-/* Minimum width of 600 pixels. */
-@media screen and (min-width: 600px) {
+/* Minimum width of 100 pixels. */
+@media screen and (min-width: 100px) {
 	.site-header h1 {
 		font-size: 26px;
 		font-size: 1.857142857rem;
@@ -425,9 +424,12 @@ a.comment-edit-link:hover {
 	.main-navigation li a {
 		border-bottom: 0;
 		color: #cc0000;
-		line-height: 1; 
+		line-height: 1.2; 
 		text-transform: uppercase;
 		white-space: nowrap;
+		float: left;
+		margin-right: 1em;
+		text-decoration: none;
 	}
 	.main-navigation li a:hover {
 		background-color: #cc0000;
