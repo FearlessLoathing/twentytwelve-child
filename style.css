@@ -19,7 +19,6 @@ Version:        0.1.0
 	font-size: 11px;
 	font-size: .76rem;
 	/* line-height: 2.181818182; */
-	text-transform: uppercase;
 	color: #000000;
 }
 .menu-toggle:hover,
@@ -102,6 +101,7 @@ body .site {
 	margin: 0rem; 
 	margin-top: 2em;
 	text-align: justify;
+	clear: both;
 }
 .widget-area {
 	margin: 24px 0 0;
@@ -121,7 +121,7 @@ body .site {
 	padding: .5em;
 }
 .site-header > li a {
-	color: rgb(117, 117, 117);
+	color: rgb(106, 106, 106);
 	text-decoration: none;
 }
 .site-header > li a:hover {
@@ -208,6 +208,7 @@ section[role="banner"] {
 	font-size: 0.928571429rem;
 	line-height: 1.846153846;
 	color: #444444;
+	text-align: justify;
 }
 .widget-area .widget p {
 	margin-bottom: 24px;
@@ -411,19 +412,21 @@ a.comment-edit-link:hover {
 		line-height: 1;
 		padding-top: .3em;
 	}
+	.menu-main-navigation-container {
+		margin-bottom: .5em;
+	}
 	.main-navigation ul.nav-menu,
 	.main-navigation div.nav-menu > ul {
 		border-bottom: 1px solid #ededed;
 		border-top: 1px solid #ededed;
 		display: inline-block !important;
-		line-height: 1.2;
 		text-align: left;
 		width: 100%;
 		margin-top: .5rem;
 	}
 	.main-navigation li a {
 		border-bottom: 0;
-		color: #cc0000;
+		color: rgb(106, 106, 106);
 		line-height: 1.2; 
 		text-transform: uppercase;
 		white-space: nowrap;
@@ -432,8 +435,7 @@ a.comment-edit-link:hover {
 		text-decoration: none;
 	}
 	.main-navigation li a:hover {
-		background-color: #cc0000;
-		color: #fff;
+		color: #cc0000;
 	}
 	.main-navigation ul li:hover > ul {
 		border-left: 0;
@@ -483,4 +485,3 @@ a.comment-edit-link:hover {
 
 
 	
-
