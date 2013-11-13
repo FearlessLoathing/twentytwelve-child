@@ -57,21 +57,23 @@
 <!-- END SEARCH FORM -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
+
 			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 
 <!--Child Category navigation-->
-<h1 class="archive-title"><?php printf( __( '%s', 'twentytwelve' ), '<span>' . single_cat_title( '', false ) . '</span>' ); ?></h1>
-<?php 
-	if (is_archive()) {
-	$catname = single_cat_title('',false);
-	$catID = get_cat_ID($catname);
-	wp_list_categories( "show_option_none=&child_of=$catID&depth=0&title_li="); 
-	}
-?>
+	<h1 class="archive-title"><?php printf( __( '%s', 'twentytwelve' ), '<span>' . single_cat_title( '', false ) . '</span>' ); ?></h1>
+	<?php 
+		if (is_archive()) {
+		$catname = single_cat_title('',false);
+		$catID = get_cat_ID($catname);
+		echo "<ul>";
+		wp_list_categories( "show_option_none=&child_of=$catID&depth=0&title_li="); 
+		echo "</ul>";
+		}
+	?>
 
 	</header><!-- #masthead -->
 
 	<div id="main" class="wrapper">
-
