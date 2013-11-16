@@ -47,15 +47,6 @@
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
 		<?php endif; ?>
 
-<!-- SEARCH FORM -->
-
-<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
-<div><input type="text" size="put_a_size_here" name="s" id="s" placeholder="Search" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
-</div>
-</form>
-
-<!-- END SEARCH FORM -->
-
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 
 			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
