@@ -264,7 +264,6 @@ li.recentcomments {
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 .byline a {
-	text-transform: uppercase;
 	text-decoration: underline;
 	padding-right: .5em;
 }
