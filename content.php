@@ -35,7 +35,7 @@
 			$id = $idObj->term_id;
 			$name = get_cat_name($id);
 			$link = get_category_link($id);
-			echo '<a href="'.$link.'">'.$name.' +</a>';
+			echo '<a href="'.$link.'">'.$name.' </a>';
 		}
 	?> 
 </p>
