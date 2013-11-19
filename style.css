@@ -38,7 +38,7 @@ article.post-password-required input[type=submit]:hover {
 /* Navigation */
 .site-content nav {
 	clear: both;
-	line-height: 1;
+	line-height: 0;
 	overflow: hidden;
 }
 #nav-above {
@@ -166,7 +166,7 @@ img.header-image {
 
 	font-size: 12px;
 	font-size: 0.857142857rem;
-	line-height: 1; 
+	/*line-height: 1; */
 }
 .main-navigation a {
 	color: #5e5e5e;
@@ -440,7 +440,7 @@ a.comment-edit-link:hover {
 	.main-navigation li a {
 		border-bottom: 0;
 		color: rgb(106, 106, 106);
-		line-height: 1.2; 
+		line-height: 1;
 		text-transform: uppercase;
 		white-space: nowrap;
 		float: left;
@@ -493,4 +493,16 @@ a.comment-edit-link:hover {
 }
 .archive-title li {
 	float: right;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		max-width: 96%;
+		margin: 0% 2%;
+	}
+	#menu-main-navigation * {
+		line-height: 1;
+		padding: 0em;
+		margin: 0em .5em;
+	}
 }
