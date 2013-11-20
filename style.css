@@ -16,7 +16,7 @@ Version:        0.1.0
 .widget-title,
 .entry-content th,
 .comment-content th {
-	font-size: .9em;
+	font-size: 1em;
 	/* line-height: 2.181818182; */
 	color: #000000;
 }
@@ -181,6 +181,10 @@ section[role="banner"] {
 }
 
 /* Sidebar */
+
+.sidebarlinks {
+	font-size: 1.3em;
+}
 .widget-area .widget {
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
@@ -226,12 +230,12 @@ color: rgb(33, 117, 155);
 	color: #cc0000;
 	text-decoration: none;
 }
-#nav_menu-5 {
+#nav_menu-4 {
 }
-#nav_menu-5 li {
+#nav_menu-4 li {
 	line-height: 2em;
 }
-#nav_menu-5 li a{
+#nav_menu-4 li a{
 	text-transform: uppercase;
 	font-size: 18px;
 	font-size: 1.3rem;
@@ -239,7 +243,7 @@ color: rgb(33, 117, 155);
 	text-decoration: none;
 	color: #000;
 }
-#nav_menu-5 li a:hover {
+#nav_menu-4 li a:hover {
 	color: #cc0000;
 }
 footer[role="contentinfo"] a:hover {
@@ -270,16 +274,24 @@ li.recentcomments {
 	color: #cc0000;
 	text-decoration: none;
 }
+
+/* DATELINE */
+.entry-date {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-top: .25em;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------------*/
 
 /* SEARCH BOX STYLES */
 /*
 #searchform {
-	float: right;
-	position: relative;
-	top: 1em;
-
-}*/
+	min-width: 100%;
+}
+.widget-area #s {
+	width: 98%;
+}
+*/
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
 
