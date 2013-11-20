@@ -35,10 +35,11 @@
 			$id = $idObj->term_id;
 			$name = get_cat_name($id);
 			$link = get_category_link($id);
-			echo '<a href="'.$link.'">'.$name.' </a>';
+			echo '<a href="'.$link.'">'.$name.' +</a>';
 		}
 	?> 
 </p>
+<span class="entry-date"><?php echo get_the_date(); ?></span>
 
 			<?php else : ?>
 			<h1 class="entry-title">
@@ -64,6 +65,7 @@
 		}
 	?> 
 </p>
+<p class="entry-date"><?php echo get_the_date(); ?></p>
 
 
 
