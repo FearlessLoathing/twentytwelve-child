@@ -226,12 +226,12 @@ color: rgb(33, 117, 155);
 	color: #cc0000;
 	text-decoration: none;
 }
-#nav_menu-2 {
+#nav_menu-5 {
 }
-#nav_menu-2 li {
+#nav_menu-5 li {
 	line-height: 2em;
 }
-#nav_menu-2 li a{
+#nav_menu-5 li a{
 	text-transform: uppercase;
 	font-size: 18px;
 	font-size: 1.3rem;
@@ -239,7 +239,7 @@ color: rgb(33, 117, 155);
 	text-decoration: none;
 	color: #000;
 }
-#nav_menu-2 li a:hover {
+#nav_menu-5 li a:hover {
 	color: #cc0000;
 }
 footer[role="contentinfo"] a:hover {
