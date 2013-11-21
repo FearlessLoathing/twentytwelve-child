@@ -40,7 +40,6 @@
 		echo ', '.get_the_date();
 	?> 
 </p>
-<span class="dateline"><?php echo get_the_date(); ?></span>
 
 			<?php else : ?>
 			<h1 class="entry-title">
