@@ -230,12 +230,12 @@ color: rgb(33, 117, 155);
 	color: #cc0000;
 	text-decoration: none;
 }
-#nav_menu-4 {
+#nav_menu-5 {
 }
-#nav_menu-4 li {
+#nav_menu-5 li {
 	line-height: 2em;
 }
-#nav_menu-4 li a{
+#nav_menu-5 li a{
 	text-transform: uppercase;
 	font-size: 18px;
 	font-size: 1.3rem;
@@ -243,7 +243,7 @@ color: rgb(33, 117, 155);
 	text-decoration: none;
 	color: #000;
 }
-#nav_menu-4 li a:hover {
+#nav_menu-5 li a:hover {
 	color: #cc0000;
 }
 footer[role="contentinfo"] a:hover {
@@ -268,17 +268,14 @@ li.recentcomments {
 }
 .byline a {
 	text-decoration: underline;
-	padding-right: .5em;
+	padding-left: .3em;
+}
+.byline a:first-child {
+	padding-left: 0em;
 }
 .byline a:hover {
 	color: #cc0000;
 	text-decoration: none;
-}
-
-/* DATELINE */
-.dateline {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	padding-top: .25em;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------*/

@@ -35,8 +35,9 @@
 			$id = $idObj->term_id;
 			$name = get_cat_name($id);
 			$link = get_category_link($id);
-			echo '<a href="'.$link.'">'.$name.' +</a>';
+			echo '<a href="'.$link.'">'.$name.'</a>';
 		}
+		echo ', '.get_the_date();
 	?> 
 </p>
 <span class="dateline"><?php echo get_the_date(); ?></span>
@@ -63,11 +64,9 @@
 			$link = get_category_link($id);
 			echo '<a href="'.$link.'">'.$name.'</a>';
 		}
+		echo ', '.get_the_date();
 	?> 
 </p>
-<p class="dateline"><?php echo get_the_date(); ?></p>
-
-
 
 			<?php endif; // is_single() ?>
 			<?php if ( comments_open() ) : ?>
