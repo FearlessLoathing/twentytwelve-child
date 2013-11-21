@@ -39,7 +39,7 @@
 		}
 	?> 
 </p>
-<span class="entry-date"><?php echo get_the_date(); ?></span>
+<span class="dateline"><?php echo get_the_date(); ?></span>
 
 			<?php else : ?>
 			<h1 class="entry-title">
@@ -65,7 +65,7 @@
 		}
 	?> 
 </p>
-<p class="entry-date"><?php echo get_the_date(); ?></p>
+<p class="dateline"><?php echo get_the_date(); ?></p>
 
 
 

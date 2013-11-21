@@ -276,7 +276,7 @@ li.recentcomments {
 }
 
 /* DATELINE */
-.entry-date {
+.dateline {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	padding-top: .25em;
 }
